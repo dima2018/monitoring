@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Температура</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="stylesheet" href="http://93.171.13.173:8080/main.css" type="text/css"/>
+        <link rel="import" href="svg.html">
+    </head>
+    <body> 
+         <div id="dateToday">             
+             <script src="http://93.171.13.173:8080/dateToday.js"></script>
+         </div>
+        
+             <div id="realTemperature">	
+             </div>  
+        
+                 <div id="svgGraph">  	
+                    <script src="http://93.171.13.173:8080/svgGraph.js"></script>
+                 </div>    
+ 
+     <div id="footer">
+      <form id="reg" name="reg">
+          <input type="text" id="enterArhiv" name="enterArhiv" placeholder="Введите дату">
+      </form>      
+      <div id="dataFromArhiv"></div><br>
+      <input type="button" value="Запрос в архив" onclick="arhiv()"/><br>
+      <h2><a href="http://93.171.13.173:8080/goodBy">АРХИВ</a></h2>
+      <h2><a href="http://93.171.13.173:8080/hello">НАСТРОЙКИ</a></h2>
+      1 градус = 5 px<br>
+      20 сек = 1 рх
+     </div> 
+    
+      <script src="http://93.171.13.173:8080/main.js"></script>  
+
+    </body>
+</html>

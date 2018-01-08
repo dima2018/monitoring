@@ -1,0 +1,35 @@
+#dateToday{
+    width: 97%;
+    height:50px;
+    margin: 0 auto;
+    background-color:#b384a2;             
+    text-align: center;	
+    font-size: 1.5em;     
+}
+#realTemperature{
+        width: 97%;
+            height:50px;
+            margin: 0 auto;
+            //background-color:#b384a2;
+            background-color:#b6bbc2;           
+            text-align: center;	
+            font-size: 38px;                                
+    }
+    #svgGraph{
+            width: 97%;
+            height: 400px;
+            margin: 0 auto;
+            background-color: #b6bbc2;
+            font-size: 32px;
+            overflow-x: scroll;
+            
+            //scroll auto
+            //text-align: center;	
+    }
+    #footer{
+        width: 97%;
+        height: 250px;
+        margin: 0 auto;
+        background-color:#7ba27b;	
+    }
+    #enterArhiv{
