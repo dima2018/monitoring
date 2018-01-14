@@ -1,5 +1,6 @@
 (function () {
 	window.GRAPHICS_CONFIG = {
-		"lineSpace": 5          // in minutes
+		"h_lineSpace": 20,         // in minutes
+		"v_lineSpace": 25          // in minutes
 	};
 })();
