@@ -29,7 +29,7 @@
 
 			graphicsList += '\t<div class="svg-container">';
 			graphicsList += '\t\t<svg width="' + svgWidth + 'px" height="100%">';
-              graphicsList += "<polyline id='pol' points=' ' fill='#b6bbc2' stroke='red' stroke-width='2'/>";
+
 			/**
 			 * вертикальные линии
 			 */
